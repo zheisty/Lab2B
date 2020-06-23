@@ -25,20 +25,20 @@ namespace Lab_2B
                 Console.WriteLine("Performance is Poor");
             }
             
-            if (sale <= 4999)
-            if (sale >= 3000)
+            if (sale >= 4999)
+            if (sale <= 3000)
             {
                     Console.WriteLine("Performance is Average");
             }
 
-            if (sale <= 5000)
-            if (sale >= 9999)
+            if (sale >= 5000)
+            if (sale <= 9999)
                 {
                     Console.WriteLine("Performance is Good");
                 }
 
-            if (sale <= 10000)
-            if (sale >= 14999)
+            if (sale >= 10000)
+            if (sale <= 14999)
                 {
                     Console.WriteLine("Performance is Excellent");
                 }
